@@ -1,4 +1,4 @@
-FHIRMeteor  [![Build Status](https://travis-ci.org/[jdlnolen]/[fhirmeteor].png)](https://travis-ci.org/[jdlnolen]/[fhirmeteor])
+FHIRMeteor  [![Build Status](https://travis-ci.org/jdlnolen/fhirmeteor.png)](https://travis-ci.org/jdlnolen/fhirmeteor)
 
 ==========
 
