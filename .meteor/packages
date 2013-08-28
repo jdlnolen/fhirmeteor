@@ -7,5 +7,5 @@ autopublish
 insecure
 preserve-inputs
 standard-app-packages
-iron-router
 collection-api
+iron-router
