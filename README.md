@@ -2,4 +2,6 @@ FHIRMeteor  [![Build Status](https://travis-ci.org/jdlnolen/fhirmeteor.png)](htt
 
 ==========
 
+JD's fork
+
 Using meteor to handle HL7 FHIR standard
