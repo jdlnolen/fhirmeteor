@@ -4,6 +4,8 @@
     "branch": "master"
   },
   "packages": {
+    "router": {},
+    "iron-router": {},
     "collection-api": {}
   }
 }
