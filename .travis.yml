@@ -7,3 +7,7 @@ services:
   - mongodb
 env: 
   - LAIKA_OPTIONS="-t 100000"
+# whitelist
+branches:
+  only:
+    - master
