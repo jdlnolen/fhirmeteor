@@ -1,8 +1,8 @@
 {
-
   "packages": {
     "router": {},
     "iron-router": {},
-    "collection-api": {}
+    "collection-api": {},
+    "purecss": {}
   }
 }
