@@ -1,0 +1,6 @@
+bp_data = {"Observation":{"text":{"status":{"value":"generated"},"div":"<div>Sept 17, 2012: Blood pressure 107/65 (normal)<\/div>"},"name":{"coding":[{"system":{"value":"http://loinc.org"},"code":{"value":"55284-4"},"display":{"value":"Blood pressure systolic and diastolic"}}]},"interpretation":{"coding":[{"system":{"value":"http://hl7.org/fhir/v2/0078"},"code":{"value":"N"},"display":{"value":"Normal (applies to non-numeric results)"}}]},"appliesDateTime":{"value":"2012-09-17"},"status":{"value":"final"},"reliability":{"value":"ok"},"identifier":{"system":{"value":"urn:ietf:rfc:3986"},"key":{"value":"187e0c12-8dd2-67e2-99b2-bf273c878281"}},"subject":{"type":{"value":"Patient"},"reference":{"value":"patient/@example"}},"performer":{"type":{"value":"Practitioner"},"reference":{"value":"practitioner/@example"}},"component":[{"name":{"coding":[{"system":{"value":"http://loinc.org"},"code":{"value":"8480-6"},"display":{"value":"Systolic blood pressure"}}]},"valueQuantity":{"value":{"value":"107"},"units":{"value":"mm[Hg]"}}},{"name":{"coding":[{"system":{"value":"http://loinc.org"},"code":{"value":"8462-4"},"display":{"value":"Diastolic blood pressure"}}]},"valueQuantity":{"value":{"value":"65"},"units":{"value":"mm[Hg]"}}}]}};
+
+if (Posts.find().count() === 0) {
+	Posts.insert(bp_data);
+
+}
